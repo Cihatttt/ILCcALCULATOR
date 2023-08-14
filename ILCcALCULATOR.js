@@ -1,5 +1,5 @@
 
-var Students, LondonFd, budget,cambridgeFD,pages;
+var Students, LondonFd, budget, cambridgeFD,cambridgeHD,OxfordFD,NorwichFD,SouthendFD,BrightonFD,IpswichHD,EdmundsHD,ClactonHD, pages;
 
 // Describe this function...
 function calculation() {
@@ -125,23 +125,7 @@ function calculation() {
  } else if (Students >= 78 && Students <= 96 && BrightonFD == true) {
    budget = (typeof budget == 'number' ? budget : 0) + 1970;
  }
-if (Students >= 3 && Students <= 6 && SouthendFD == true) {
-   budget = (typeof budget == 'number' ? budget : 0) + 300;
- } else if (Students >= 7 && Students <= 13 && SouthendFD == true) {
-   budget = (typeof budget == 'number' ? budget : 0) + 335;
- } else if (Students >= 14 && Students <= 29 && SouthendFD == true) {
-   budget = (typeof budget == 'number' ? budget : 0) + 690;
- } else if (Students >= 30 && Students <= 46 && SouthendFD == true) {
-   budget = (typeof budget == 'number' ? budget : 0) + 725;
- } else if (Students >= 47 && Students <= 54 && SouthendFD == true) {
-   budget = (typeof budget == 'number' ? budget : 0) + 1025;
- } else if (Students >= 55 && Students <= 61 && SouthendFD == true) {
-   budget = (typeof budget == 'number' ? budget : 0) + 1060;
- } else if (Students >= 62 && Students <= 77 && SouthendFD == true) {
-   budget = (typeof budget == 'number' ? budget : 0) + 1415;
- } else if (Students >= 78 && Students <= 96 && SouthendFD == true) {
-   budget = (typeof budget == 'number' ? budget : 0) + 1450;
- }
+
   if (Students >= 3 && Students <= 6 && IpswichHD == true) {
    budget = (typeof budget == 'number' ? budget : 0) + 220;
  } else if (Students >= 7 && Students <= 13 && IpswichHD == true) {
